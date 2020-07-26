@@ -1,0 +1,58 @@
+<html>
+<head>
+    <style>
+            body {
+  background-image: url('pic1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+            </style>
+            
+    <script>
+        function disp()
+        {
+            var name=document.getElementById('name').value;
+            alert('Hello '+name);
+        }
+        function disp1()
+        {
+            alert('Course selected');
+        }
+    </script>
+<title>HTML,CSS,JAVASCRIPT</title>
+
+</head>
+<body>
+    
+<h1 style="font-family:verdana;text-align:center;">HTML,CSS,JAVASCRIPT COURSE</h1>
+<p title="Description : " style="font-family:courier;">what you need to know before joining the course!</p>
+<p style="color:rgb(40, 5, 61)"> HTML : Hypertext Markup Language</p>
+<ul>
+    <li>HTML is the standard markup language for Web pages.</li>
+    <li>With HTML you can create your own Website.</li>
+    <li>This tutorial follows the latest HTML5 standard.</li>
+  </ul>  
+<p style="color:rgb(4, 4, 49)">CSS :Cascading Style Sheet</p>
+<ul>
+    <li> CSS is a language that describes the style of an HTML document.</li>
+    <li> CSS describes how HTML elements should be displayed.</li>
+</ul>
+<p style="color:rgb(4, 4, 49)">JS :JavaScript</p>
+<ul>
+    <li>JavaScript is the programming language of HTML and the Web.</li>
+</ul>
+<img src = "images.jfif" alt = "Test Image" width="300" height="300">
+<p>Choose a course from below to start learning today :</p>
+<input type="Checkbox" >HTML</checkbx><br>
+<input type="Checkbox" >CSS</checkbx><br>
+<input type="Checkbox" >JS</checkbx><br>
+<button onclick="disp1()">Submit</button><br>
+<p>Enter your name : </p>
+<input type="text" id="name"/><br>
+<br>
+<button onclick="disp()">Submit</button><br>
+<br>
+<a href="form.html">Click here to fill the course form.</a>
+</body>
+</html>
